@@ -161,6 +161,7 @@ img {
 .container{
     background: #e6e6e6;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #444;
     overflow: hidden;
     .container-mould{
         width:80%;
@@ -196,4 +197,24 @@ img {
             }
         }
     }
+}
+.trends{
+  .trends-li{
+    border-bottom:1px solid #ededed;
+    margin-bottom:40px;
+    .trends-title{
+      color: #21759b;
+      cursor: pointer;
+      font-size: 26px;
+      font-weight: normal;
+    }
+    .trends{
+      font-size: 15px;
+      margin:30px 0 20px 0;
+    }
+    .trends-date{
+      font-size: 12px;
+      padding-bottom:10px;
+    }
+  }
 }
